@@ -7,11 +7,10 @@
                 let nav = document.querySelector('div[class*=\'nav-scroller\'] > [class*=\'nav\']')
                 let a = document.createElement('a')
                 a.innerText = "Social"
-                a.classList.add('p-2')
-                a.classList.add('muted')
+                a.setAttribute('class','p-2 text-muted')
                 nav.appendChild(a)
         }
-            // addLink()
+            addLink()
 
 
 
@@ -22,11 +21,11 @@
 
         // EX13) Write a function to change the background of the jumbotron
 
-        const bgColorJumbotron = function(){
-           let jumbotron = document.querySelector('div[class*="jumbotron"]')
-           jumbotron.style.backgroundColor = 'red !important'
-        }
-            bgColorJumbotron()
+        // const bgColorJumbotron = function(){
+        //    let jumbotron = document.querySelector('div[class*="jumbotron"]')
+        //    jumbotron.style.backgroundColor = 'red !important'
+        // }
+        //     bgColorJumbotron()
 
       
 
