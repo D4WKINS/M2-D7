@@ -1,6 +1,8 @@
  /* EX1) Write a selector to target the title of the page */
 
- title {}
+ .jumbotron > div > h1{
+     /* color:purple; */
+ }
           
  /* EX2) Write a selector to target every children of the navbar  */
 
@@ -45,7 +47,7 @@
  main > div > div > .blog-post:nth-child(3){
     /* background-color:gold !important; */
   }
-
+ 
 
  /* EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly */
 
